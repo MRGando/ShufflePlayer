@@ -11,11 +11,11 @@ function shuffleTheSong(data) {
   songCover.src = randSong.cover;
   audio.src = randSong.link;
   audio.play();
-
   cover.addEventListener("load", () => {
     vanishLoadingPage(500, 0);
   });
 }
+
 //Template ( removes the rest of a long name )
 const template = (songCategory, listOfType) => {
   const slic = songCategory.slice(0, 6);
@@ -76,7 +76,7 @@ const close = () => {
   floatList.innerHTML = "";
 };
 //when user click on see more button this function we take place
-function showProperList(type) {
+function showProperList(type, title) {
   floatSongSection.style.display = "unset";
   floatSongSection.style.opacity = 1;
   fetch(localFile)
@@ -86,9 +86,10 @@ function showProperList(type) {
         .filter((value) => value.category === type)
         .map((value) => value);
       for (let eachSong in songs) {
-        loopSongs(floatList, songs, eachSong, "floatSong", true);
+        loopSongs(floatList, songs, eachSong, "floatSong fix-size", true);
       }
     });
+  floatSongList_title.innerHTML = title;
 }
 //loadingScreen when shuffle button is clicked
 function vanishLoadingPage(opacity, display) {

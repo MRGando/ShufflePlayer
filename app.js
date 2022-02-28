@@ -22,6 +22,10 @@ try {
       template(INS, listOfINS);
 
       shuffleButton.addEventListener("click", () => shuffleTheSong(data));
+      // //checks if song is finished , then plays the next one randomly
+      // if (audio.ended) {
+      //   shuffleTheSong(data);
+      // }
     });
 
   playButton.addEventListener("click", playButtonStatus);
