@@ -93,6 +93,10 @@ a {
   text-align: center;
   margin-right: 1px;
   cursor: pointer;
+  transition: 0.2s;
+}
+.song:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 span {
   color: orangered;

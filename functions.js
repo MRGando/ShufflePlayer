@@ -24,10 +24,19 @@ const template = (songCategory, listOfType) => {
     loopSongs(listOfType, slic, song, "song");
   }
 };
-
+function playSelectedSong(id) {
+  fetch(localFile)
+    .then((response) => response.json())
+    .then((data) => {
+      selectedSong = data.filter((item) => item.id == id);
+      shuffleTheSong(selectedSong);
+    });
+}
 //loop songs
 const loopSongs = (place, category, rand, className, hasButton) => {
-  place.innerHTML += `<div class='${className}'> 
+  place.innerHTML += `<div onclick="playSelectedSong(${
+    category[rand].id
+  })" class='${className}'> 
   <img class="songCoverImage" src=${category[rand].cover}>
   </br>
   <div class="content">
