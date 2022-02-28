@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no, initial-scale=1.0"
+    />
+    <meta name="Theme-color" content="#451c86" />
+    <meta name="description" content="free music player" />
+    <meta name="Author" content="Reza Kamali" />
+    <link rel="icon" href="./src/icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link type="text/javascript" href="songs.json" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shuffli</title>
+  </head>
+  <body>
+    <!--shuffle section-->
+    <div class="container con">
+      <p class="Each-Row-Title">پخش تصادفی <i class="fas fa-infinity"></i></p>
+      <img
+        class="cover"
+        id="cover"
+        width="200em"
+        src="./src/preloadCover.jpg"
+        alt=""
+      />
+      <p class="title">
+        روی
+        <span><i style="font-size: 15px" class="fas fa-random"></i></span>
+        کلیک کنید
+      </p>
+      <p class="singer"></p>
+      <div class="buttons">
+        <button class="randomSong btn btn-warning">
+          <i class="fas fa-random"></i>
+        </button>
+        <button class="playBtn btn btn-success">
+          <i class="fas fa-play"></i>
+        </button>
+      </div>
+    </div>
+    <!--end of shuffle section-->
+
+    <!--Pop songs list-->
+    <div class="listOfPop songs-container container">
+      <p class="Each-Row-Title">
+        آهنگ پاپ <i class="fas fa-microphone-alt"></i>
+      </p>
+      <div class="popList list">
+        <div
+          onclick="showProperList('pop')"
+          class="seeMoreButton song seeMorePop"
+        >
+          <i class="far fa-arrow-alt-circle-left"></i>
+          <p>بیشتر</p>
+        </div>
+      </div>
+    </div>
+    <!--end of pop list-->
+
+    <!--Rock songs list-->
+    <div class="listOfRock songs-container container">
+      <p class="Each-Row-Title">آهنگ راک <i class="fas fa-guitar"></i></p>
+      <div class="rockList list">
+        <div
+          onclick="showProperList('rock')"
+          class="song seeMoreButton seeMoreRock"
+        >
+          <i class="far fa-arrow-alt-circle-left"></i>
+          <p>بیشتر</p>
+        </div>
+      </div>
+    </div>
+    <!--end of rock songs list-->
+
+    <!--music list-->
+    <div class="listOfINSsongs songs-container container">
+      <p class="Each-Row-Title">
+        موسیقی بی کلام <i class="fas fa-headphones-alt"></i>
+      </p>
+      <div class="INSList list">
+        <div
+          onclick="showProperList('Instrumental')"
+          class="song seeMoreButton seeMoreINS"
+        >
+          <i class="far fa-arrow-alt-circle-left"></i>
+          <p>بیشتر</p>
+        </div>
+      </div>
+    </div>
+    <!--end of music list-->
+
+    <!--footer section-->
+    <img class="logo" src="./src/logo_light.png" alt="Logo" /><br />
+    <label style="direction: rtl; padding: 0 20px; margin-bottom: 20px"
+      >تمامی حقوق این قالب برای سایت fitDesign.ir محفوظ است</label
+    >
+    <!-- end of footer section-->
+
+    <!--loading page-->
+    <div class="loadingScreen">
+      <div class="dot dot1"></div>
+      <div class="dot dot2"></div>
+      <div class="dot dot3"></div>
+    </div>
+    <!--end of loading page-->
+    <!--list of songs ( when More button is clicked )-->
+    <div class="background">
+      <div class="floatSongsList">
+        <div class="floatHead">
+          <p>مجموعه<span></span></p>
+          <i class="closeButton fas fa-times"></i>
+        </div>
+        <div class="floatMain"></div>
+        <div class="floatFoot"></div>
+      </div>
+    </div>
+    <script src="variables.js"></script>
+    <script src="functions.js"></script>
+    <script src="app.js"></script>
+  </body>
+
+  <script></script>
+</html>

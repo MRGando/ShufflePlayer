@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Nazanin";
+  transition: 0.3s;
+}
+body {
+  background-color: rgb(69, 28, 134);
+  color: whitesmoke;
+  font-size: 20px;
+  overflow-x: hidden;
+  text-align: center;
+}
+body::before {
+  content: "";
+  position: absolute;
+  width: 15em;
+  height: 15em;
+  background-color: #501891;
+  box-shadow: -10px -10px 30px -20px black;
+  z-index: -1;
+  border-radius: 50%;
+  bottom: 5%;
+  right: 5%;
+}
+body::after {
+  content: "";
+  top: -20em;
+  left: -10em;
+  position: absolute;
+  width: 30em;
+  height: 30em;
+  background-color: rgb(80, 24, 145);
+  box-shadow: 10px 10px 30px -20px black;
+  z-index: -1;
+  border-radius: 50%;
+}
+img {
+  margin: 20px 20px;
+  border-radius: 5px;
+  border: 4px solid rgb(80, 24, 145);
+}
+.con {
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 3em;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.songs-container {
+  position: relative;
+  border-radius: 5px 0 5px 5px;
+  margin-top: 3em;
+  padding: 10px 5px 2px 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: row;
+}
+.waveContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#wave {
+  max-width: 20em;
+  width: 100%;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  direction: ltr;
+  overflow-x: auto;
+  scrollbar-color: #6969dd #e0e0e0;
+  scrollbar-width: thin;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+.song {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 0px;
+  text-align: center;
+  margin-right: 1px;
+  cursor: pointer;
+}
+span {
+  color: orangered;
+}
+.title {
+  font-size: 20px;
+}
+.loadingScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  background-color: rgb(80, 24, 145);
+  margin: 10px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.dot2 {
+  animation-name: MiddleDot;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 0.2s;
+}
+.dot1,
+.dot3 {
+  animation-name: MiddleDot;
+  animation-duration: 0.3s;
+  animation-fill-mode: backwards;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-delay: 0.2s;
+}
+.Each-Row-Title {
+  position: absolute;
+  right: 0;
+  top: -44.5px;
+  border-radius: 10px 10px 0 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  font-size: 23px;
+  z-index: 9;
+}
+.logo {
+  border: none;
+  width: 70px;
+}
+.singerName {
+  font-size: 14px;
+}
+.songCoverImage {
+  width: 150px;
+}
+.seeMoreButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  padding: 0 30px;
+}
+.floatSongsList {
+  transition: 0.3;
+  position: fixed;
+  width: 20em;
+  height: 80%;
+  max-width: 60em;
+  background-color: rgb(35, 11, 63);
+  z-index: 9;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  .floatHead {
+    border-radius: 5px;
+    width: 100%;
+    height: 3em;
+    background-color: rgb(22, 7, 39);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  i {
+    cursor: pointer;
+  }
+  .floatMain {
+    border-radius: 5px;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    overflow-y: scroll;
+  }
+  .floatSong {
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin: 10px 0;
+    align-items: center;
+    padding: 20px 20px;
+    justify-content: space-between;
+
+    background-color: rgb(19, 4, 44);
+  }
+  img {
+    width: 5em;
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .floatListPlayButton {
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .floatListPlayButton:hover {
+    background-color: whitesmoke;
+    color: rgb(35, 11, 63);
+  }
+}
+.background {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+@keyframes MiddleDot {
+  0% {
+    margin-top: 30px;
+  }
+}
+@media screen and(max-width:450px) {
+  .floatSongsList {
+    width: 100%;
+    height: 100%;
+    transform: translate(0, 0);
+    top: 0;
+    left: 0;
+  }
+}
