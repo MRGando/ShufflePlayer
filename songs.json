@@ -2,112 +2,112 @@
   {
     "id": 1,
     "name": "عمو زنجیر باف",
-    "link": "./src/Tracks/songs/pop/amooZanjirBaf.mp3",
-    "cover": "./src/Tracks/covers/pop/amooZanjirBaf.jpg",
+    "link": "./src/Tracks/Songs/pop/amooZanjirBaf.mp3",
+    "cover": "./src/Tracks/Covers/pop/amooZanjirBaf.jpg",
     "singer": "مسیح و آرش",
     "category": "pop"
   },
   {
     "id": 2,
     "name": "Myself",
-    "link": "./src/Tracks/songs/pop/myself.mp3",
-    "cover": "./src/Tracks/covers/pop/myself.jpg",
+    "link": "./src/Tracks/Songs/pop/myself.mp3",
+    "cover": "./src/Tracks/Covers/pop/myself.jpg",
     "singer": "Bazzi",
     "category": "pop"
   },
   {
     "id": 3,
     "name": "Getting Older",
-    "link": "./src/Tracks/songs/pop/GettingOlder.mp3",
-    "cover": "./src/Tracks/covers/pop/gettingOlder.jpg",
+    "link": "./src/Tracks/Songs/pop/GettingOlder.mp3",
+    "cover": "./src/Tracks/Covers/pop/gettingOlder.jpg",
     "singer": "billie eilish",
     "category": "pop"
   },
   {
     "id": 4,
     "name": "I Didn't Change My Number",
-    "link": "./src/Tracks/songs/pop/IDidntChangeMyNumber.mp3",
-    "cover": "./src/Tracks/covers/pop/iDidntCangeMyNumber.jpg",
+    "link": "./src/Tracks/Songs/pop/IDidntChangeMyNumber.mp3",
+    "cover": "./src/Tracks/Covers/pop/iDidntCangeMyNumber.jpg",
     "singer": "billie eilish",
     "category": "pop"
   },
   {
     "id": 8,
     "name": "Awake",
-    "link": "./src/Tracks/songs/rock/Hero.mp3",
-    "cover": "./src/Tracks/covers/rock/awake.jpg",
+    "link": "./src/Tracks/Songs/rock/Hero.mp3",
+    "cover": "./src/Tracks/Covers/rock/awake.jpg",
     "singer": "Skillet",
     "category": "rock"
   },
   {
     "id": 9,
     "name": "In the end",
-    "link": "./src/Tracks/songs/rock/intheend.mp3",
-    "cover": "./src/Tracks/covers/rock/intheend.jpg",
+    "link": "./src/Tracks/Songs/rock/intheend.mp3",
+    "cover": "./src/Tracks/Covers/rock/intheend.jpg",
     "singer": "Linkin park",
     "category": "rock"
   },
   {
     "id": 10,
     "name": "Be somebody",
-    "link": "./src/Tracks/songs/rock/beSomebody.mp3",
-    "cover": "./src/Tracks/covers/rock/beSomebody.jpg",
+    "link": "./src/Tracks/Songs/rock/beSomebody.mp3",
+    "cover": "./src/Tracks/Covers/rock/beSomebody.jpg",
     "singer": "Thousand Foot Krutch",
     "category": "rock"
   },
   {
     "id": 11,
     "name": "Can you feel my heart",
-    "link": "./src/Tracks/songs/rock/canYouFeelMyHeart.mp3",
-    "cover": "./src/Tracks/covers/rock/canYouFeelMyHeart.jpg",
+    "link": "./src/Tracks/Songs/rock/canYouFeelMyHeart.mp3",
+    "cover": "./src/Tracks/Covers/rock/canYouFeelMyHeart.jpg",
     "singer": "Bring me the horizon",
     "category": "rock"
   },
   {
     "id": 12,
     "name": "Fading",
-    "link": "./src/Tracks/songs/rock/Fading.mp3",
-    "cover": "./src/Tracks/covers/rock/decyferDown.jpg",
+    "link": "./src/Tracks/Songs/rock/Fading.mp3",
+    "cover": "./src/Tracks/Covers/rock/decyferDown.jpg",
     "singer": "Decyfer Down",
     "category": "rock"
   },
   {
     "id": 13,
     "name": "Parasite Eve",
-    "link": "./src/Tracks/songs/rock/parasiteEve.mp3",
-    "cover": "./src/Tracks/covers/rock/parasiteEve.jpg",
+    "link": "./src/Tracks/Songs/rock/parasiteEve.mp3",
+    "cover": "./src/Tracks/Covers/rock/parasiteEve.jpg",
     "singer": "Bring me the horizon",
     "category": "rock"
   },
   {
     "id": 14,
     "name": "Sleep walking",
-    "link": "./src/Tracks/songs/rock/sleepWalking.mp3",
-    "cover": "./src/Tracks/covers/rock/sleepWalking.jpg",
+    "link": "./src/Tracks/Songs/rock/sleepWalking.mp3",
+    "cover": "./src/Tracks/Covers/rock/sleepWalking.jpg",
     "singer": "Bring me the horizon",
     "category": "rock"
   },
   {
     "id": 15,
     "name": "Thunder",
-    "link": "./src/Tracks/songs/rock/thunder.mp3",
-    "cover": "./src/Tracks/covers/rock/thunder.jpg",
+    "link": "./src/Tracks/Songs/rock/thunder.mp3",
+    "cover": "./src/Tracks/Covers/rock/thunder.jpg",
     "singer": "Imagine Dragons",
     "category": "rock"
   },
   {
     "id": 16,
     "name": "What ever it takes",
-    "link": "./src/Tracks/songs/rock/whatEverItTakes.mp3",
-    "cover": "./src/Tracks/covers/rock/whatEverItTakes.jpg",
+    "link": "./src/Tracks/Songs/rock/whatEverItTakes.mp3",
+    "cover": "./src/Tracks/Covers/rock/whatEverItTakes.jpg",
     "singer": "Imagine Dragons",
     "category": "rock"
   },
   {
     "id": 17,
     "name": "Believer",
-    "link": "./src/Tracks/songs/rock/believer.mp3",
-    "cover": "./src/Tracks/covers/rock/believer.jpg",
+    "link": "./src/Tracks/Songs/rock/believer.mp3",
+    "cover": "./src/Tracks/Covers/rock/believer.jpg",
     "singer": "Imagine Dragons",
     "category": "rock"
   },
