@@ -7,7 +7,7 @@ function shuffleTheSong(data) {
   loadingScreen.style.display = "unset";
   loadingScreen.style.opacity = 1;
   const randSong = data[Math.floor(Math.random() * data.length)];
-  singer.innerHTML = `<span style='font-weight:bold'>${randSong.name}</span><br><p>${randSong.singer}</p>`;
+  singer.innerHTML = `<span style='font-weight:bold'>- ${randSong.name} -</span><br><p>${randSong.singer}</p>`;
   titleOfShuffledSong.remove();
   songCover.src = randSong.cover;
   wavesurfer.load(randSong.link);
@@ -20,6 +20,7 @@ function shuffleTheSong(data) {
   cover.addEventListener("load", () => {
     vanishLoadingPage(500, 0);
   });
+  scrollToTheTop();
 }
 
 //Template ( removes the rest of a long name )
@@ -105,4 +106,11 @@ function vanishLoadingPage(opacity, display) {
       loadingScreen.style.display = "none";
     }, display);
   }, opacity);
+}
+
+function scrollToTheTop() {
+  window.scrollTo({
+    behavior: "smooth",
+    top: 0,
+  });
 }

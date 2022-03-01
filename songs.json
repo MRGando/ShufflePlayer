@@ -137,9 +137,121 @@
   },
   {
     "id": 18,
-    "name": "Instrumental",
-    "link": "https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(1).mp3",
-    "cover": "./src/Tracks/Covers/Instrumental/seaSide.jpeg",
+    "name": "Instrumental - 1",
+    "link": "./src/Tracks/Songs/instrumental/2.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 19,
+    "name": "Instrumental - 2",
+    "link": "./src/Tracks/Songs/instrumental/3.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 20,
+    "name": "Instrumental - 3",
+    "link": "./src/Tracks/Songs/instrumental/4.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 21,
+    "name": "Instrumental - 4",
+    "link": "./src/Tracks/Songs/instrumental/5.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 22,
+    "name": "Instrumental - 5",
+    "link": "./src/Tracks/Songs/instrumental/6.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 23,
+    "name": "Instrumental - 6",
+    "link": "./src/Tracks/Songs/instrumental/7.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 24,
+    "name": "Instrumental - 7",
+    "link": "./src/Tracks/Songs/instrumental/8.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 27,
+    "name": "Instrumental - 8",
+    "link": "./src/Tracks/Songs/instrumental/9.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 28,
+    "name": "Instrumental - 9",
+    "link": "./src/Tracks/Songs/instrumental/10.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 29,
+    "name": "Instrumental - 10",
+    "link": "./src/Tracks/Songs/instrumental/11.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 30,
+    "name": "Instrumental - 11",
+    "link": "./src/Tracks/Songs/instrumental/12.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 31,
+    "name": "Instrumental - 12",
+    "link": "./src/Tracks/Songs/instrumental/13.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 32,
+    "name": "Instrumental - 13",
+    "link": "./src/Tracks/Songs/instrumental/14.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 33,
+    "name": "Instrumental - 14",
+    "link": "./src/Tracks/Songs/instrumental/15.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
+    "singer": "Unknown",
+    "category": "Instrumental"
+  },
+  {
+    "id": 34,
+    "name": "Instrumental - 15",
+    "link": "./src/Tracks/Songs/instrumental/16.mp3",
+    "cover": "./src/Tracks/Covers/Instrumental/nature.jpg",
     "singer": "Unknown",
     "category": "Instrumental"
   }
