@@ -16,4 +16,4 @@ const seeMoreButton = document.querySelector(".seeMoreButton");
 const siteLogo = document.querySelector(".logo");
 const Body = document.querySelector(".Body");
 const floatSongList_title = document.querySelector(".floatSongList_title");
-const audio = new Audio();
+const waveform = document.querySelector("#waveform");

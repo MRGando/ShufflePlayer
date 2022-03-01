@@ -32,6 +32,30 @@
     "category": "pop"
   },
   {
+    "id": 5,
+    "name": "Blinding Lights",
+    "link": "./src/Tracks/Songs/pop/blindingLights.mp3",
+    "cover": "./src/Tracks/Covers/pop/blindingLights.jpg",
+    "singer": "The weeknd",
+    "category": "pop"
+  },
+  {
+    "id": 6,
+    "name": "Save your tears",
+    "link": "./src/Tracks/Songs/pop/saveYourTears.mp3",
+    "cover": "./src/Tracks/Covers/pop/saveYourTears.jpg",
+    "singer": "The weeknd",
+    "category": "pop"
+  },
+  {
+    "id": 7,
+    "name": "Star Boy",
+    "link": "./src/Tracks/Songs/pop/starBoy.mp3",
+    "cover": "./src/Tracks/Covers/pop/starBoy.jpg",
+    "singer": "The weeknd",
+    "category": "pop"
+  },
+  {
     "id": 8,
     "name": "Awake",
     "link": "./src/Tracks/Songs/rock/Hero.mp3",
@@ -113,9 +137,9 @@
   },
   {
     "id": 18,
-    "name": "Instrumental-1",
+    "name": "Instrumental",
     "link": "https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(1).mp3",
-    "cover": "https://download1music.ir/wp-content/uploads/2021/01/hs-%D8%A7%D9%87%D9%86%DA%AF-%D8%A8%DB%8C-%DA%A9%D9%84%D8%A7%D9%85.jpeg",
+    "cover": "./src/Tracks/Covers/Instrumental/seaSide.jpeg",
     "singer": "Unknown",
     "category": "Instrumental"
   }

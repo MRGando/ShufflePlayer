@@ -45,9 +45,13 @@ body::after {
 img {
   margin: 20px 20px;
   border-radius: 5px;
-  border: 4px solid rgb(80, 24, 145);
+  border: 4px solid #501891;
   width: 100px;
   height: 150px;
+}
+#waveform {
+  display: none;
+  margin-bottom: 20px;
 }
 .con {
   position: relative;
@@ -69,15 +73,6 @@ img {
   backdrop-filter: blur(2px);
   display: flex;
   flex-direction: row;
-}
-.waveContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-#wave {
-  max-width: 20em;
-  width: 100%;
 }
 
 .list {

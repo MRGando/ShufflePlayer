@@ -1,16 +1,22 @@
 //shuffle the song
 function shuffleTheSong(data) {
   //loading song
-  audio.preload = "true";
+  waveform.style.display = "block";
+  wavesurfer.stop();
   playButton.innerHTML = '<i class="fas fa-pause"></i>';
   loadingScreen.style.display = "unset";
   loadingScreen.style.opacity = 1;
   const randSong = data[Math.floor(Math.random() * data.length)];
-  singer.innerHTML = `${randSong.name} - ${randSong.singer}`;
+  singer.innerHTML = `<span style='font-weight:bold'>${randSong.name}</span><br><p>${randSong.singer}</p>`;
   titleOfShuffledSong.remove();
   songCover.src = randSong.cover;
-  audio.src = randSong.link;
-  audio.play();
+  wavesurfer.load(randSong.link);
+  wavesurfer.on("ready", () => {
+    wavesurfer.play();
+  });
+  wavesurfer.on("finish", () => {
+    shuffleTheSong(data);
+  });
   cover.addEventListener("load", () => {
     vanishLoadingPage(500, 0);
   });
@@ -59,11 +65,11 @@ const loopSongs = (place, category, rand, className, hasButton) => {
 };
 //play function
 function playButtonStatus() {
-  if (audio.paused) {
-    audio.play();
+  if (!wavesurfer.isPlaying()) {
+    wavesurfer.play();
     playButton.innerHTML = '<i class="fas fa-pause"></i>';
   } else {
-    audio.pause();
+    wavesurfer.pause();
     playButton.innerHTML = '<i class="fas fa-play"></i>';
   }
 }

@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width,user-scalable=no, initial-scale=1.0"
     />
-    <meta name="Theme-color" content="#451c86" />
+    <meta name="Theme-color" content="#501891" />
     <meta name="description" content="free music player" />
     <meta name="Author" content="Reza Kamali" />
     <link rel="icon" href="./src/icon.ico" />
@@ -38,7 +38,9 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-
+    <!--WaveSurfer.js plugin-->
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <!--list of songs with json format-->
     <link type="text/javascript" href="songs.json" />
     <link rel="stylesheet" href="style.css" />
     <title>Shuffli</title>
@@ -48,6 +50,7 @@
     <div class="container con">
       <p class="Each-Row-Title">پخش تصادفی <i class="fas fa-infinity"></i></p>
       <img class="cover" id="cover" src="./src/preloadCover.jpg" alt="" />
+      <div id="waveform"></div>
       <p class="title">
         روی
         <span><i style="font-size: 15px" class="fas fa-random"></i></span>
@@ -140,6 +143,7 @@
       </div>
     </div>
     <script src="variables.js"></script>
+    <script src="waveSurfer.js"></script>
     <script src="functions.js"></script>
     <script src="app.js"></script>
   </body>

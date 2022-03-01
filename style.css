@@ -59,6 +59,11 @@ img {
   height: 150px;
 }
 
+#waveform {
+  display: none;
+  margin-bottom: 20px;
+}
+
 .con {
   position: relative;
   text-align: center;
@@ -85,21 +90,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-.waveContainer {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#wave {
-  max-width: 20em;
-  width: 100%;
 }
 
 .list {
