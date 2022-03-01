@@ -21,6 +21,7 @@ function shuffleTheSong(data) {
     vanishLoadingPage(500, 0);
   });
   scrollToTheTop();
+  window.title = `Shuffli - ${randSong.name}`;
 }
 
 //Template ( removes the rest of a long name )
@@ -107,7 +108,7 @@ function vanishLoadingPage(opacity, display) {
     }, display);
   }, opacity);
 }
-
+//scrolls to the top of the page when song is selected
 function scrollToTheTop() {
   window.scrollTo({
     behavior: "smooth",
