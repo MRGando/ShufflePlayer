@@ -6,3 +6,6 @@
 
 # MusicPlayer
 ShufflePlayer - you can play songs randomly or choose one .
+
+# how i made it : 
+``` HTML ``` ``` Sass ``` ``` javascript ``` ``` JSON ``` ``` fetch API ```
